@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metronarc Admin Login</title>
-    <link rel="icon" type="image/svg+xml" href="<?= base_url(); ?>/img/Logo.png" />
+    <link href="<?= base_url('/img/favicon.png') ?>" rel="icon">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -49,7 +49,7 @@
         }
         
         .login-header {
-            background: rgba(37, 150, 190, var(--container-opacity));
+            background: rgba(108, 117, 125, var(--container-opacity));
             padding: 15px;
             color: white;
             text-align: center;
